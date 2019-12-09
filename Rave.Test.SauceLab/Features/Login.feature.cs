@@ -70,10 +70,10 @@ namespace Rave.Test.SauceLab.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Successful Login For Valid User")]
-        public virtual void SuccessfulLoginForValidUser()
+        [NUnit.Framework.DescriptionAttribute("Check Successful Login For Valid User")]
+        public virtual void CheckSuccessfulLoginForValidUser()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Successful Login For Valid User", null, ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Check Successful Login For Valid User", null, ((string[])(null)));
 #line 4
   this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
