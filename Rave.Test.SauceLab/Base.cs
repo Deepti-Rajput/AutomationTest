@@ -65,10 +65,10 @@ namespace Rave.Test.SauceLab
 			}
 			else if (platform.Equals("android", StringComparison.InvariantCulture))
 			{
-				capabilities.SetCapability("testobjectApiKey", "06C8838A16A240D78DE312D18FF77BC3");
+				capabilities.SetCapability("testobjectApiKey", "3DF1CFB039984EC29D9C30CCC721E0CA");
 				capabilities.SetCapability("platformName", "Android");
 				capabilities.SetCapability("deviceName", "Samsung_Galaxy_S6_sjc_free");
-				capabilities.SetCapability("cacheId", "16ea26d56b5");
+				capabilities.SetCapability("cacheId", "16ef39b4e36");
 				capabilities.SetCapability("browserName", "chrome");
 				capabilities.SetCapability("testobject_app_id", "1");
 				capabilities.SetCapability("name", "Android - Chrome browser - Real device - test env");

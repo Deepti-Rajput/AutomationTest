@@ -78,10 +78,12 @@ namespace Rave.Test.SauceLab.Features
   this.ScenarioInitialize(scenarioInfo);
             this.ScenarioStart();
 #line 5
-    testRunner.When("I enter username \"9819606607\" and passowrd \"1234\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.Given("I am at login page of application", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 6
-    testRunner.And("I click on login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+    testRunner.When("I enter username \"9819606607\" and passowrd \"1234\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 7
+    testRunner.And("I click on login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+#line 8
     testRunner.Then("the correct username \"Rahul Sonawane (Rave_QA)\" should be displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

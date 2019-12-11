@@ -29,11 +29,16 @@ namespace Rave.Test.SauceLab.Steps
 			CloseDriver();
 		}
 
-		[When(@"I enter username ""(.*)"" and passowrd ""(.*)""")]
-		public void WhenIEnterUsernameAndPassowrd(string userName, string password)
+		[Given(@"I am at login page of application")]
+		public void GivenIAmAtLoginPageOfApplication()
 		{
 			loginPage = new LoginPage();
 			loginPage.Navigate();
+		}
+
+		[When(@"I enter username ""(.*)"" and passowrd ""(.*)""")]
+		public void WhenIEnterUsernameAndPassowrd(string userName, string password)
+		{
 			loginPage.Login(userName, password);
 		}
 
